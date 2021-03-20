@@ -1,4 +1,3 @@
-# IMAP-SYNC
 
 imapsync - Email IMAP tool for syncing, copying, migrating and archiving email mailboxes between two imap servers, one way, and without  duplicates.
 
@@ -14,12 +13,12 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 --host1  |  Source or "from" imap server
 --port1  |  Port to connect on host1
 --user1  |  User to login on host1
---host2  |  "destination" imap server
+--host2  |  "Destination" imap server
 --port2  |  Port to connect on host2
 --user2  |  Password for the user2
 --ssl1   |  Use a SSL connection on host1. On by default if possible
 --ssl2   |  Use a SSL connection on host2. On by default if possible
---noauthmd5 | don’t use MD5 authentification
+--noauthmd5 | Don’t use MD5 authentification
 
 
 
