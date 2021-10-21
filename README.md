@@ -22,3 +22,8 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 
 
 
+#### IMAP SYNC command to use in office365 oe exchange email server migration process.
+
+```
+imapsync --host1 imap.sourceserver.com --user1 tuttu@example.com --password1 '"Maxa!"' --sep1 / --prefix1 "" --host2 outlook.office365.com --user2 tuttu@example.com --password2 '"Isabe11a50"' --ssl2 --regextrans2 's/^INBOX\.(.+)/$1/' --nolog --timeout 6000 --usecache --errorsmax 6000 --addheader
+```
