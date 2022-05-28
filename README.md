@@ -20,8 +20,9 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 --ssl2   |  Use a SSL connection on host2. On by default if possible
 --noauthmd5 | Don’t use MD5 authentification
 --tls1  | imapsync to use TLS on the source server, --tls2 will specify TLS on the destination server
-
-
+--exclude| you can exclude a folder using the "–exclude" command
+--folder | If you wanted to sync a single folder
+--folderrec | If you needed to recursively include subfolders
 
 
 
