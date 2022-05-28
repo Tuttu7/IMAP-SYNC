@@ -19,6 +19,9 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 --ssl1   |  Use a SSL connection on host1. On by default if possible
 --ssl2   |  Use a SSL connection on host2. On by default if possible
 --noauthmd5 | Don’t use MD5 authentification
+--tls1  | imapsync to use TLS on the source server, --tls2 will specify TLS on the destination server
+
+
 
 
 
@@ -26,4 +29,10 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 
 ```
 imapsync --host1 imap.sourceserver.com --user1 tuttu@example.com --password1 '"Maxa!"' --sep1 / --prefix1 "" --host2 outlook.office365.com --user2 tuttu@example.com --password2 '"*11a50"' --ssl2 --regextrans2 's/^INBOX\.(.+)/$1/' --nolog --timeout 6000 --usecache --errorsmax 6000 --addheader
+```
+
+#### IMAP SYNC Manaull command latest
+
+```
+imapsync --host1 SOURCE_SERVER --user1 SOURCE_EMAIL --password1 "SOUCRE_PASSWORD" --sep1 / --host2 DESTINATION_SERVER --user2 DESTINATION_EMAIL --password2 "DESTINATION_PASSWORD" --nolog --timeout 900 --usecache --addheader
 ```
