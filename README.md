@@ -8,7 +8,7 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 
 ```
 
-| IMAP SYNC command Option  | Desciption|
+| IMAP SYNC command Option  | Description|
 ---------|-----------
 --host1  |  Source or "from" imap server
 --port1  |  Port to connect on host1
