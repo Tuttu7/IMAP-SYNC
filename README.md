@@ -1,5 +1,6 @@
 
 imapsync - Email IMAP tool for syncing, copying, migrating and archiving email mailboxes between two imap servers, one way, and without  duplicates.
+Installtion guides - https://imapsync.lamiral.info/INSTALL
 
 Basic command to transfer emails from one server to another server using IMAP SYNC
 
