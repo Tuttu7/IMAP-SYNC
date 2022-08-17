@@ -5,7 +5,7 @@ Installtion guides - https://imapsync.lamiral.info/INSTALL
 Basic command to transfer emails from one server to another server using IMAP SYNC
 
 ```
-imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mail" --ssl1 --port1 993 --noauthmd5 --host2 Destination server IP --user2 gill@domain.com --password2 "gilt8email" --ssl2 --port2 993 --noauthmd5
+imapsync --host1 Source server IP --user1 gill@domain.com --password1 "tyuiot8mail" --ssl1 --port1 993 --noauthmd5 --host2 Destination server IP --user2 gill@domain.com --password2 "tyuiot8mail" --ssl2 --port2 993 --noauthmd5
 
 ```
 
@@ -30,7 +30,7 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "gillt8mai
 #### IMAP SYNC command to use in office365 or exchange email server migration process.
 
 ```
-imapsync --host1 imap.sourceserver.com --user1 tuttu@example.com --password1 '"Maxa!"' --sep1 / --prefix1 "" --host2 outlook.office365.com --user2 tuttu@example.com --password2 '"*11a50"' --ssl2 --regextrans2 's/^INBOX\.(.+)/$1/' --nolog --timeout 6000 --usecache --errorsmax 6000 --addheader
+imapsync --host1 imap.sourceserver.com --user1 tuttu@example.com --password1 '"Ma567xa!"' --sep1 / --prefix1 "" --host2 outlook.office365.com --user2 tuttu@example.com --password2 '"*11a890750"' --ssl2 --regextrans2 's/^INBOX\.(.+)/$1/' --nolog --timeout 6000 --usecache --errorsmax 6000 --addheader
 ```
 
 #### IMAP SYNC Manaull command latest
