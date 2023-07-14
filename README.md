@@ -24,6 +24,10 @@ imapsync --host1 Source server IP --user1 gill@domain.com --password1 "tyuiot8ma
 --exclude| you can exclude a folder using the "–exclude" command
 --folder | If you wanted to sync a single folder
 --folderrec | If you needed to recursively include subfolders
+--sep1 / | Migrate all contents
+--prefix1 ".INBOX"| Prefix of new box (.INBOX is for linux server) which can be blank
+--timeout 900 | IMAP Sync won't timeout for at least 15 minutes
+--exclude "^Deleted Messages$" | Exclude a folder
 
 
 
